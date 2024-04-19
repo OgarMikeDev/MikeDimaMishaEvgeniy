@@ -81,7 +81,7 @@ public class Student{
 
     public static int getCountStudents() {
         //Misha >
-        return 0;
+        return setStudents.size();
     }
 
     @Override
