@@ -65,7 +65,9 @@ public class Student{
     }
 
     public static void printInformationAboutStudents() {
-        //Evgeniy
+        for (Student currentStudent : setStudents) {
+            System.out.println(currentStudent);
+        }
     }
 
     public static void removeStudent(long phoneNumber) {
